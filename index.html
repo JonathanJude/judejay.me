@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Jude Jonathan</title>
+  <meta name="description" content="Jude Jonathan - Software Developer. Abuja, Nigeria" />
+  <meta name="author" content="Jude Jonathan" />
+  
+  <meta name="keywords" content="software developer, software engineer, mobile developer, react.js, vue.js,Flutter, Dart, javascipt, php, laravel, android, kotlin" />
+  <meta property="og:title" content="Jude Jonathan" />
+  <!-- <meta property="og:image"
+    content="https://res.cloudinary.com/judejax/image/upload/v1554308400/judejay.jpg" /> -->
+  <meta property="og:description"
+    content="Jude Jonathan - Software Developer. Abuja, Nigeria" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="https://res.cloudinary.com/judejax/image/upload/v1554308400/judejay.jpg" />
+    </div>
+    <h1>Jude Jonathan</h1>
+    <h4>Software Developer</h4>
+
+    <section>
+      <p>
+        A proactive learner with a flair for adopting emerging trends and addressing industry requirements to achieve
+        organizational objectives.
+        An effective team member with proven abilities to be a part of a team during the project phase and guiding team
+        members.
+      </p>
+      <a href="https://www.facebook.com/judinho59" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com/_JudeJay" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/JonathanJude" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com/judinho59" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jude-jonathan" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <br />
+      <button id="contact">Contact me</button>
+    </section>
+  </header>
+
+  <main>
+
+    <section>
+      <h3>Skills</h3>
+      <div class="skills">
+        <div class="column">
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>Laravel / PHP</li>
+            <li>Flutter / Dart</li>
+            <li>JavaScript ES5/6</li>
+            <li>MySQL</li>
+            <li>Kotlin</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>API Developement</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+            <li>Lumen</li>
+            <li>Slim</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class="school">
+          <span>2014-2018</span> <strong>Kano University of Science & Technology</strong>
+        </div>
+        <div class="descrition">
+          B.Sc. Computer Science
+        </div>
+      </article>
+
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <article>
+        <div class="job-title">
+          <span>07.2018 - Present</span> <strong>Freelance</strong><br />
+          <strong>Position:</strong> Mobile Developer
+        </div>
+        <div>
+          <p>
+            <strong>Tech stack:</strong> Flutter / Dart, Android, Kotlin
+          </p>
+          <ul class="job-description">
+            <li>Developed & successfuly deployed two (2) quality cross-platform (Android / iOS) mobile apps using
+              Flutter for a client.</li>
+            <li>
+              Also, saw through the completion of another mobile app for remote client.
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <div class="job-title">
+          <span>103.2019 - Present</span> <strong>Kano University of Science & Technology</strong><br />
+          <strong>Position:</strong> Web Developer
+        </div>
+        <div>
+          <p>
+            <strong>Tech stack:</strong> Laravel / PHP, Vue.js, Boostrap, Wordpress
+          </p>
+          <ul class="job-description">
+            <li>Part of a two-man team that built and maintains the University school portal from scratch with
+              Larvel & Vue.js.</li>
+            <li>
+              Also, designed the website for the inistituition.
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <div class="job-title">
+          <span>03.2017 - 06.2017</span> <strong>Corporate Affairs Commision, HQ</strong><br />
+          <strong>Position:</strong> Intern (Student Industrial Training)
+        </div>
+        <div>
+
+          <ul class="job-description">
+            <li>Part of the Networking team that oversees the day-today opertions of the computer networks on the
+              Commision.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <div id="form">
+    <form action="submit.php" method="POST">
+      <h2 class="form__heading">Reach Me</h2>
+      <input type="text" name="name" minlength="4" placeholder="Name" />
+      <input type="email" name="email" placeholder="Email address" />
+      <input type="text" name="title" minlength="4" placeholder="Title" />
+      <textarea minlength="20" name="message" placeholder="Message"></textarea>
+      <input type="submit" name="Submit" value="Submit" />
+    </form>
+  </div>
+
+  <script>
+    (function app() {
+      let form = document.querySelector("#form");
+      let contact = document.querySelector("#contact");
+
+      form.addEventListener('click', function closeform(e) {
+        if (e.target == form) {
+          form.classList.remove("open");
+        }
+      });
+
+      contact.addEventListener('click', function openform(e) {
+        form.classList.add("open");
+      });
+
+    })();
+  </script>
+
+  <!-- <footer>
+    <p>
+       Create by
+    </p>
+  </footer> -->
+</body>
+
+</html>
