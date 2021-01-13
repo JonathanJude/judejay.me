@@ -1,0 +1,50 @@
+.jd-sample-work-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(34,36,39,0.05);
+
+  .sample-work-details {
+    >.title {
+      font-weight: 400;
+      font-size: 28px;
+      color: #222427;
+      letter-spacing: 3.5px;
+      margin-bottom: 20px;
+      &:before {
+        content: "";
+        height: 13px;
+        width: 13px;
+        background-color: #105DE0;
+        display: block;
+        margin-bottom: 20px;
+
+      }
+    }
+    >.description{
+      font-weight: 300;
+      font-size: 16px;
+      color: #222427;
+      letter-spacing: 0.8px;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+    >.status {
+      margin-bottom: 20px;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        font-weight: 300;
+        font-size: 14px;
+        color: rgba(34,36,39,0.50);
+        letter-spacing: 0.7px;
+        line-height: 32px;
+
+        &:not(:last-child):after {
+          content: "|";
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

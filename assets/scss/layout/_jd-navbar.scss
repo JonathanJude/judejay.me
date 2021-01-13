@@ -1,0 +1,26 @@
+.jd-navbar {
+  margin-top: 32px;
+  background-color: #fff;
+
+  &.navbar-expand-lg {
+    
+    .navbar-nav .active {
+      .nav-link {
+        color: rgba(0,0,0,0.70);
+      }
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 400;
+      font-size: 12px;
+      color: rgba(0,0,0,0.30);
+      letter-spacing: 2.57px;
+      text-transform: uppercase;
+      padding: 8px 15px;
+
+      &:hover {
+        color: #105DE0;
+      }
+    }
+  }
+}

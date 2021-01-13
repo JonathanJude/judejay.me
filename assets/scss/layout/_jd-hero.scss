@@ -1,0 +1,27 @@
+.jd-hero-banner {
+  height: calc(100vh - 160px);
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(34,36,39,0.05);
+}
+
+.jd-hero-text {
+  height: calc(100% - 48px);
+  text-align: center;
+
+  h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: #222427;
+    letter-spacing: 10.29px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #105DE0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+}

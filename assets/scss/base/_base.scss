@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.pt-80 {
+  padding-top: 80px !important;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222427;
+  letter-spacing: 0.8px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-weight: 300;
+  font-size: 36px;
+  color: #222427;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
