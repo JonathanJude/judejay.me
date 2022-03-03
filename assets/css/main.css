@@ -7766,8 +7766,8 @@ p {
     text-transform: uppercase; }
 
 .jd-sample-work-container {
-  padding-top: 10;
-  padding-bottom: 10px;
+  padding-top: 26px;
+  padding-bottom: 26px;
   border-bottom: 1px solid rgba(34, 36, 39, 0.05); }
   .jd-sample-work-container .sample-work-details > .title {
     font-weight: 400;
