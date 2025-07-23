@@ -5,6 +5,7 @@ $(document).ready(function(){
   // Load JSON data
   loadProjectsData();
   loadAboutData();
+  loadHomeData();
   
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});   
@@ -70,7 +71,7 @@ function updateDarkModeIcon(isDark) {
 function loadProjectsData() {
   if ($('#works').length === 0) return; // Only load on pages with works section
   
-  $.getJSON('projects.json')
+  $.getJSON('assets/data/projects.json')
     .done(function(projects) {
       renderProjects(projects);
     })
@@ -99,9 +100,6 @@ function renderProjects(projects) {
 
 function createProjectHtml(project, index, projectsLength) {
   const statusHtml = `<li>${project.status}</li>`;
-  const isEven = index % 2 === 0;
-  const orderClass1 = isEven ? 'order-2' : 'order-1';
-  const orderClass2 = isEven ? 'order-1' : 'order-2';
   
   // Handle store links
   let storeLinksHtml = '';
@@ -120,7 +118,10 @@ function createProjectHtml(project, index, projectsLength) {
   
   return `
     <div class="row jd-sample-work-container d-flex justify-content-between">
-      <div class="col-12 col-sm-5 ${orderClass1} sample-work-details align-self-center">
+      <div class="col-12 col-sm-4 order-1">
+        ${imagesHtml}
+      </div>
+      <div class="col-12 col-sm-6 offset-sm-1 order-2 sample-work-details align-self-center">
         <h4 class="title">${project.title}</h4>
         <p class="description">${project.shortDescription}</p>
         <p class="description">${project.fullDescription}</p>
@@ -130,9 +131,6 @@ function createProjectHtml(project, index, projectsLength) {
         <div class="store-links">
           ${storeLinksHtml}
         </div>
-      </div>
-      <div class="col-12 col-sm-6 ${orderClass2}">
-        ${imagesHtml}
       </div>
     </div>
     ${index < projectsLength - 1 ? '<br/>' : ''}
@@ -163,7 +161,7 @@ function createImagesHtml(images) {
 function loadAboutData() {
   if ($('#about').length === 0) return; // Only load on about page
   
-  $.getJSON('about.json')
+  $.getJSON('assets/data/about.json')
     .done(function(aboutData) {
       renderAboutData(aboutData);
     })
@@ -211,4 +209,44 @@ function renderAboutData(data) {
   
   // Update contact email in footer
   $('#contact a[href^="mailto:"]').attr('href', `mailto:${data.email}`).text(data.email);
+}
+
+// Load Home Data
+function loadHomeData() {
+  // Only load on home page (pages without #about or #works sections as main content)
+  if ($('#about').length > 0) return; // Skip if on about page
+  
+  $.getJSON('assets/data/about.json')
+    .done(function(data) {
+      renderHomeData(data);
+    })
+    .fail(function() {
+      console.log('Failed to load home data');
+    });
+}
+
+function renderHomeData(data) {
+  // Update page title
+  document.title = `${data.name} | ${data.title}`;
+  
+  // Update hero section
+  $('#hero-name').html(`Hi, I'm <b>${data.name}</b>`);
+  $('#hero-title').text(data.title);
+  
+  // Update social links
+  let socialLinksHtml = '🔗';
+  
+  if (data.socialLinks) {
+    data.socialLinks.forEach(function(link) {
+      socialLinksHtml += ` <a class="social-link" href="${link.url}" target="_blank">${link.name}</a>`;
+    });
+  }
+  
+  $('#social-links-container').html(socialLinksHtml);
+  
+  // Update resume link in navigation
+  $('a[href*="docs.google.com"]').attr('href', data.resumeLink);
+  
+  // Update contact email in footer
+  $('#contact-email').attr('href', `mailto:${data.email}`).text(data.email);
 }

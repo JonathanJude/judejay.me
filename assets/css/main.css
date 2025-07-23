@@ -7963,8 +7963,9 @@ p {
   align-items: center;
   justify-content: center;
   gap: -20px;
-  height: 400px;
+  height: 420px;
   margin-bottom: 1rem;
+  margin-right: 2rem;
   position: relative;
 }
 
@@ -7982,9 +7983,9 @@ p {
 /* Left image - behind and shorter */
 .project-images img:first-child {
   width: 200px;
-  height: 320px;
+  height: 340px;
   z-index: 1;
-  margin-right: -30px;
+  margin-right: -25px;
 }
 
 /* Side images container for middle and right images */
@@ -8000,51 +8001,55 @@ p {
   width: 220px;
   height: 380px;
   z-index: 3;
-  margin: 0 -15px;
+  margin: 0 -12px;
 }
 
 /* Right image - behind and shorter */
 .project-images .side-images img:last-child {
   width: 200px;
-  height: 320px;
+  height: 340px;
   z-index: 1;
-  margin-left: -30px;
+  margin-left: -25px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .project-images {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: -15px;
+    height: 350px;
+    margin-bottom: 1rem;
+    position: relative;
   }
   
   .project-images img:first-child {
-    width: 280px;
-    height: 200px;
-    margin-right: 0;
+    width: 140px;
+    height: 280px;
     z-index: 1;
+    margin-right: -20px;
   }
   
   .project-images .side-images {
-    flex-direction: row;
+    display: flex;
+    align-items: center;
     gap: -20px;
-    justify-content: center;
+    position: relative;
   }
   
   .project-images .side-images img:first-child {
     width: 160px;
-    height: 220px;
-    margin: 0 -10px;
+    height: 320px;
     z-index: 3;
+    margin: 0 -10px;
   }
   
   .project-images .side-images img:last-child {
     width: 140px;
-    height: 200px;
-    margin-left: -20px;
+    height: 280px;
     z-index: 1;
+    margin-left: -20px;
   }
 }
 
