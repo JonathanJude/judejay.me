@@ -1,0 +1,26 @@
+{
+  "name": "Jude Jonathan",
+  "image": "assets/img/memoji.png",
+  "title": "Software Engineer",
+  "description": "I enjoy building beautiful & amazing software for fun. I do mobile development with Flutter & backend development with PHP / Laravel.",
+  "skills": ["PHP", "Dart", "Flutter", "Laravel", "Lumen", "Vue.js", "JavaScript", "CSS", "HTML"],
+  "email": "jonathanjude27@gmail.com",
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jude-jonathan/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/JonathanJude"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_JudeJay"
+    }
+  ],
+  "resumeLink": "https://docs.google.com/document/d/1I3K6klmJK1W1Dxnx_N4FuFC8LjxgoHqAA0Pqxxa_V2E/edit?usp=sharing",
+  "location": "Nigeria",
+  "experience": "3+ years",
+  "availability": "Available for freelance projects"
+}
