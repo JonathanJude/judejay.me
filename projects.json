@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Kippa",
+    "shortDescription": "Simple Bookkepping app for SMEs.",
+    "fullDescription": "Using Kippa, you can record your transactions, send receipts and invoices, track customers who owe you money, and send debt bills via SMS and WhatsApp.",
+    "status": "Live",
+    "appleStoreLink": "https://apps.apple.com/app/kippa/id1234567890",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.africave.kippa",
+    "githubLink": "https://github.com/example/kippa",
+    "images": ["assets/img/1.png", "assets/img/2.png", "assets/img/3.png"]
+  },
+  {
+    "title": "eNaira",
+    "shortDescription": "Africa's first CBDC wallet.",
+    "fullDescription": "The eNaira is the Nigerian digital currency that is issued and regulated by the Central Bank of Nigeria. Its functionality delivers speedy, safe, and simple trading and transactional opportunities to customers and end-users:<br/> - It is exchanged peer to peer.<br/> - It is universal – anybody can hold it.<br/> - It does not yield any interest.",
+    "status": "Live",
+    "appleStoreLink": "",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=ng.gov.cbn.speed.wallet.temp",
+    "githubLink": "",
+    "images": ["assets/img/eNaira.png", "assets/img/placeholder.png", "assets/img/placeholder.png"]
+  },
+  {
+    "title": "Staarm",
+    "shortDescription": "Car rentals made easy.",
+    "fullDescription": "Staarm is a platform that enables individuals to rent vehicles from local hosts. Users get to search from a variety of vehicles to enable them to get the best vehicle for their use case. Local hosts also get to list their vehicles and earn income by making their vehicles work for them.",
+    "status": "Live",
+    "appleStoreLink": "",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.staarm.staarm_mobile",
+    "githubLink": "",
+    "images": ["assets/img/staarm.png", "assets/img/placeholder.png", "assets/img/placeholder.png"]
+  },
+  {
+    "title": "HaggleX",
+    "shortDescription": "Crypto app for buying & selling BTC, ETH, etc .",
+    "fullDescription": "Buy, sell, save or stake cryptocurrencies, all in one app. HaggleX is a new and easier way to seamlessly take control of your finances.",
+    "status": "Live",
+    "appleStoreLink": "",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.hagglex.hagglex",
+    "githubLink": "",
+    "images": ["assets/img/hagglex.png", "assets/img/placeholder.png", "assets/img/placeholder.png"]
+  },
+  {
+    "title": "Accelerate",
+    "shortDescription": "Payment collection mobile app.",
+    "fullDescription": "Accelerate is a product for businesses to collect money from thier customers with ease.",
+    "status": "Live",
+    "appleStoreLink": "",
+    "googlePlayLink": "#",
+    "githubLink": "",
+    "images": ["assets/img/accelerate.png", "assets/img/placeholder.png", "assets/img/placeholder.png"]
+  },
+  {
+    "title": "Kavecol",
+    "shortDescription": "Bills payment & bulk SMS service.",
+    "fullDescription": "Kavecol is your all-in-one Bills solution platform with an easy to use SMS service.",
+    "status": "Live",
+    "appleStoreLink": "",
+    "googlePlayLink": "#",
+    "githubLink": "",
+    "images": ["assets/img/kavecol.png", "assets/img/placeholder.png", "assets/img/placeholder.png"]
+  }
+]

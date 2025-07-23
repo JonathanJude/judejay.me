@@ -53,6 +53,9 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
+                    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon" id="darkModeIcon"></i>
+                    </button>
                 </div>
                 
             </div>
@@ -60,20 +63,8 @@
 
         <section class="about-section" id="about">
           <div class="container">
-            <div class="row d-flex justify-content-between">
-              <div class="col-12 col-sm-4">
-                <img src="assets/img/memoji.png" alt="" class="img-fluid pb-5">
-              </div>
-              <div class="col-12 col-sm-7">
-                <h4>Hello! I am Jude Jonathan.</h4>
-                <p>I enjoy building beautiful & amazing software for fun.</p>
-
-                <p>I do mobile development with Flutter & backend development with PHP / Laravel.</p>
-
-                <h5>Things I use for development:</h5>
-                <p>PHP / Dart / Flutter / Laravel, Lumen / Vue.js </p>
-              </div>
-            </div>
+            <!-- About content will be loaded dynamically from about.json -->
+            <div id="about-container"></div>
           </div>
         </section>
 
