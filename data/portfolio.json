@@ -25,7 +25,9 @@
         "/screens/afterhours-member-4.webp",
         "/screens/afterhours-member-5.webp",
         "/screens/afterhours-member-6.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "AfterHours Staff",
@@ -42,7 +44,9 @@
         "/screens/afterhours-staff-4.webp",
         "/screens/afterhours-staff-5.webp",
         "/screens/afterhours-staff-6.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "AfterHours Admin",
@@ -59,7 +63,9 @@
         "/screens/afterhours-admin-4.webp",
         "/screens/afterhours-admin-5.webp",
         "/screens/afterhours-admin-6.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "Faji",
@@ -78,7 +84,9 @@
         "/screens/faji-night-out-store.webp",
         "/screens/faji-7.webp",
         "/screens/faji-8.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "TETT Rider",
@@ -92,7 +100,9 @@
         "/screens/tett-rider-1.webp",
         "/screens/tett-rider-2.webp",
         "/screens/tett-rider-3.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "TETT Driver",
@@ -106,16 +116,18 @@
         "/screens/tett-driver-1.webp",
         "/screens/tett-driver-2.webp",
         "/screens/tett-driver-3.webp"
-      ]
+      ],
+      "inBeta": true,
+      "live": false
     },
     {
       "name": "Rova",
       "category": "Fintech",
       "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
       "color": "#3078F0",
-      "ios": "",
-      "android": "",
-      "web": "",
+      "ios": "https://apps.apple.com/ng/app/rova-app/id1552432331",
+      "android": "https://play.google.com/store/apps/details?id=com.roava.app&hl=en",
+      "web": "https://getrova.com/",
       "screenshots": [
         "/screens/rova-home.PNG",
         "/screens/rova-transactions.PNG",
@@ -125,17 +137,21 @@
         "/screens/rova-buy-data.PNG",
         "/screens/rova-fund-account.PNG",
         "/screens/rova-savings.PNG"
-      ]
+      ],
+      "inBeta": false,
+      "live": true
     },
     {
       "name": "Vendaw",
-      "category": "",
-      "description": "",
-      "color": "#3FD39A",
-      "ios": "",
-      "android": "",
-      "web": "",
-      "screenshots": []
+      "category": "Business management",
+      "description": "Manage products, orders, customers and bookkeeping for your business.",
+      "color": "#073F3E",
+      "ios": "https://apps.apple.com/ng/app/vendaw/id6748095501",
+      "android": "https://play.google.com/store/apps/details?id=com.vendaw.vendaw_mobile&hl=en",
+      "web": "https://vendaw.com",
+      "screenshots": [],
+      "inBeta": false,
+      "live": true
     }
   ],
   "archive": [

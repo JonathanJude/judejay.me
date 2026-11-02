@@ -114,6 +114,11 @@ export default function Apps({ apps }: { apps: App[] }) {
                 <h3 id={id} className="grad">
                   {app.name}
                 </h3>
+                {(app.inBeta || app.live) && (
+                  <span className={`status-badge ${app.live ? "is-live" : "is-beta"}`}>
+                    {app.live ? "Live" : "In beta"}
+                  </span>
+                )}
               </div>
               {app.description && <p className="desc">{app.description}</p>}
               {(app.ios || app.android || app.web) && (

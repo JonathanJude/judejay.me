@@ -9,6 +9,8 @@ export type App = {
   ios: string;
   android: string;
   web: string;
+  inBeta: boolean;
+  live: boolean;
   /** Image URLs (absolute, or paths under /public). */
   screenshots: string[];
 };
@@ -67,6 +69,8 @@ function parse(data: Record<string, unknown>): Portfolio {
       ios: str(a.ios, `${at}.ios`),
       android: str(a.android, `${at}.android`),
       web: str(a.web, `${at}.web`),
+      inBeta: a.inBeta === true,
+      live: a.live === true,
       screenshots: list(a.screenshots, `${at}.screenshots`).map((s, k) =>
         str(s, `${at}.screenshots[${k}]`, true),
       ),

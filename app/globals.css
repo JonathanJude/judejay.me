@@ -377,6 +377,28 @@ img {
   line-height: 1;
 }
 
+.status-badge {
+  flex-shrink: 0;
+  padding: 7px 10px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status-badge.is-beta {
+  color: #d4ff3f;
+  background: color-mix(in srgb, #d4ff3f 9%, transparent);
+}
+
+.status-badge.is-live {
+  color: #66e0ad;
+  background: color-mix(in srgb, #66e0ad 9%, transparent);
+}
+
 .app-icon {
   width: 52px;
   height: 52px;
