@@ -28,7 +28,13 @@
       "ios": "",
       "android": "",
       "web": "https://faji.games",
-      "screenshots": []
+      "screenshots": [
+        "/screens/faji-1.webp",
+        "/screens/faji-2.webp",
+        "/screens/faji-3.webp",
+        "/screens/faji-4.webp",
+        "/screens/faji-5.webp"
+      ]
     },
     {
       "name": "Rova",

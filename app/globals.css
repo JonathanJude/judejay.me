@@ -669,10 +669,13 @@ img {
   right: max(8px, calc(50% - 300px));
 }
 
+/* Takes whatever height is left between the title bar and thumbnails, so short screens don't squash it. */
 .track {
   position: relative;
   width: 100%;
-  height: min(70vh, 660px);
+  flex: 1 1 0;
+  min-height: 220px;
+  max-height: 660px;
 }
 
 .cs {
