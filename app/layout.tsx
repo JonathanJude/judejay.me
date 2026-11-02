@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   metadataBase: portfolio.url ? new URL(portfolio.url) : undefined,
   title: portfolio.name,
   description: portfolio.description,
-  icons: portfolio.logo ? { icon: portfolio.logo, apple: portfolio.logo } : undefined,
   openGraph: {
     title: portfolio.name,
     description: portfolio.description,
