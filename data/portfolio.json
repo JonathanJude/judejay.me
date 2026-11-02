@@ -149,7 +149,12 @@
       "ios": "https://apps.apple.com/ng/app/vendaw/id6748095501",
       "android": "https://play.google.com/store/apps/details?id=com.vendaw.vendaw_mobile&hl=en",
       "web": "https://vendaw.com",
-      "screenshots": [],
+      "screenshots": [
+        "/screens/vendaw-onboarding-1.webp",
+        "/screens/vendaw-onboarding-2.webp",
+        "/screens/vendaw-onboarding-3.webp",
+        "/screens/vendaw-login.webp"
+      ],
       "inBeta": false,
       "live": true
     }
