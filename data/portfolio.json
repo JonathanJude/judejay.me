@@ -11,14 +11,55 @@
   "accent": "#D4FF3F",
   "apps": [
     {
-      "name": "AfterHours",
+      "name": "AfterHours Member",
       "category": "Nightlife",
-      "description": "Memberships, reservations and door check-in for nightlife venues. Guests carry their member card on their phone; venues run the night from one dashboard.",
+      "description": "Discover venues, manage memberships and book tables from your phone.",
       "color": "#4BF0B0",
       "ios": "",
       "android": "",
       "web": "https://afterhours.africa",
-      "screenshots": []
+      "screenshots": [
+        "/screens/afterhours-member-1.webp",
+        "/screens/afterhours-member-2.webp",
+        "/screens/afterhours-member-3.webp",
+        "/screens/afterhours-member-4.webp",
+        "/screens/afterhours-member-5.webp",
+        "/screens/afterhours-member-6.webp"
+      ]
+    },
+    {
+      "name": "AfterHours Staff",
+      "category": "Venue operations",
+      "description": "Check guests in, manage the door list and settle live tabs during service.",
+      "color": "#7BB661",
+      "ios": "",
+      "android": "",
+      "web": "https://afterhours.africa",
+      "screenshots": [
+        "/screens/afterhours-staff-1.webp",
+        "/screens/afterhours-staff-2.webp",
+        "/screens/afterhours-staff-3.webp",
+        "/screens/afterhours-staff-4.webp",
+        "/screens/afterhours-staff-5.webp",
+        "/screens/afterhours-staff-6.webp"
+      ]
+    },
+    {
+      "name": "AfterHours Admin",
+      "category": "Venue management",
+      "description": "Oversee branches, review membership approvals and monitor venue operations.",
+      "color": "#E8B14E",
+      "ios": "",
+      "android": "",
+      "web": "https://afterhours.africa",
+      "screenshots": [
+        "/screens/afterhours-admin-1.webp",
+        "/screens/afterhours-admin-2.webp",
+        "/screens/afterhours-admin-3.webp",
+        "/screens/afterhours-admin-4.webp",
+        "/screens/afterhours-admin-5.webp",
+        "/screens/afterhours-admin-6.webp"
+      ]
     },
     {
       "name": "Faji",
@@ -33,38 +74,58 @@
         "/screens/faji-2.webp",
         "/screens/faji-3.webp",
         "/screens/faji-4.webp",
-        "/screens/faji-5.webp"
+        "/screens/faji-plus-subscription.webp",
+        "/screens/faji-night-out-store.webp",
+        "/screens/faji-7.webp",
+        "/screens/faji-8.webp"
+      ]
+    },
+    {
+      "name": "TETT Rider",
+      "category": "Ride-hailing",
+      "description": "Plan a ride, track your driver and review trip activity around Abuja.",
+      "color": "#20166F",
+      "ios": "",
+      "android": "",
+      "web": "",
+      "screenshots": [
+        "/screens/tett-rider-1.webp",
+        "/screens/tett-rider-2.webp",
+        "/screens/tett-rider-3.webp"
+      ]
+    },
+    {
+      "name": "TETT Driver",
+      "category": "Driver app",
+      "description": "Manage availability, track earnings and review completed trips.",
+      "color": "#20166F",
+      "ios": "",
+      "android": "",
+      "web": "",
+      "screenshots": [
+        "/screens/tett-driver-1.webp",
+        "/screens/tett-driver-2.webp",
+        "/screens/tett-driver-3.webp"
       ]
     },
     {
       "name": "Rova",
       "category": "Fintech",
       "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
-      "color": "#8B8CFF",
+      "color": "#3078F0",
       "ios": "",
       "android": "",
       "web": "",
-      "screenshots": []
-    },
-    {
-      "name": "Kippa",
-      "category": "Small business",
-      "description": "Bookkeeping for small businesses: record sales, send receipts and invoices, and keep track of who owes you.",
-      "color": "#5B82FF",
-      "ios": "",
-      "android": "https://play.google.com/store/apps/details?id=com.africave.kippa",
-      "web": "",
-      "screenshots": []
-    },
-    {
-      "name": "HaggleX",
-      "category": "Crypto",
-      "description": "Buy, sell, save and stake crypto, all in one wallet.",
-      "color": "#FFB020",
-      "ios": "",
-      "android": "https://play.google.com/store/apps/details?id=com.hagglex.hagglex",
-      "web": "",
-      "screenshots": []
+      "screenshots": [
+        "/screens/rova-home.PNG",
+        "/screens/rova-transactions.PNG",
+        "/screens/rova-transfer-progress.PNG",
+        "/screens/rova-transfer-success.PNG",
+        "/screens/rova-receipt.PNG",
+        "/screens/rova-buy-data.PNG",
+        "/screens/rova-fund-account.PNG",
+        "/screens/rova-savings.PNG"
+      ]
     },
     {
       "name": "Vendaw",
@@ -97,6 +158,16 @@
       "name": "Kavecol",
       "description": "Bills payments with bulk SMS built in.",
       "link": ""
+    },
+    {
+      "name": "Kippa",
+      "description": "Bookkeeping for small businesses: record sales, send receipts and invoices, and keep track of who owes you.",
+      "link": "https://play.google.com/store/apps/details?id=com.africave.kippa"
+    },
+    {
+      "name": "HaggleX",
+      "description": "Buy, sell, save and stake crypto, all in one wallet.",
+      "link": "https://play.google.com/store/apps/details?id=com.hagglex.hagglex"
     }
   ]
 }
