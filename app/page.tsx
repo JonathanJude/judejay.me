@@ -3,11 +3,6 @@ import { portfolio } from "@/lib/portfolio";
 
 const external = { target: "_blank", rel: "noopener noreferrer" } as const;
 
-// Fixed at build time; the site is rebuilt on every deploy.
-async function Year() {
-  "use cache";
-  return new Date().getFullYear();
-}
 
 export default function Home() {
   const p = portfolio;
@@ -142,7 +137,7 @@ export default function Home() {
       <footer className="footer">
         <div className="wrap footer-inner">
           <span>
-            © <Year /> {p.name}
+            © {new Date().getFullYear()} {p.name}
           </span>
           <div className="footer-links">
             {socials

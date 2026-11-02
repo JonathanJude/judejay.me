@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Plain static files in out/, so any static host (Netlify, Vercel, Pages) can serve the site.
+  output: "export",
 };
 
 export default nextConfig;
