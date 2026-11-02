@@ -1,0 +1,96 @@
+{
+  "name": "Jude Jonathan",
+  "url": "https://judejay.dev",
+  "description": "I'm a mobile engineer from Nigeria. I love building apps people carry in their pockets: some for the teams I've worked with, and lately a few of my own.",
+  "logo": "/memoji.png",
+  "email": "jonathanjude27@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/jude-jonathan/",
+  "github": "https://github.com/JonathanJude",
+  "x": "https://twitter.com/_JudeJay",
+  "resume": "https://docs.google.com/document/d/1I3K6klmJK1W1Dxnx_N4FuFC8LjxgoHqAA0Pqxxa_V2E/edit?usp=sharing",
+  "accent": "#D4FF3F",
+  "apps": [
+    {
+      "name": "AfterHours",
+      "category": "Nightlife",
+      "description": "Memberships, reservations and door check-in for nightlife venues. Guests carry their member card on their phone; venues run the night from one dashboard.",
+      "color": "#4BF0B0",
+      "ios": "",
+      "android": "",
+      "web": "https://afterhours.africa",
+      "screenshots": []
+    },
+    {
+      "name": "Faji",
+      "category": "Party games",
+      "description": "Party games for nights in with friends: pick a game format, pass the phone and play through fresh card decks.",
+      "color": "#FF6A2C",
+      "ios": "",
+      "android": "",
+      "web": "https://faji.games",
+      "screenshots": []
+    },
+    {
+      "name": "Rova",
+      "category": "Fintech",
+      "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
+      "color": "#8B8CFF",
+      "ios": "",
+      "android": "",
+      "web": "",
+      "screenshots": []
+    },
+    {
+      "name": "Kippa",
+      "category": "Small business",
+      "description": "Bookkeeping for small businesses: record sales, send receipts and invoices, and keep track of who owes you.",
+      "color": "#5B82FF",
+      "ios": "",
+      "android": "https://play.google.com/store/apps/details?id=com.africave.kippa",
+      "web": "",
+      "screenshots": []
+    },
+    {
+      "name": "HaggleX",
+      "category": "Crypto",
+      "description": "Buy, sell, save and stake crypto, all in one wallet.",
+      "color": "#FFB020",
+      "ios": "",
+      "android": "https://play.google.com/store/apps/details?id=com.hagglex.hagglex",
+      "web": "",
+      "screenshots": []
+    },
+    {
+      "name": "Vendaw",
+      "category": "",
+      "description": "",
+      "color": "#3FD39A",
+      "ios": "",
+      "android": "",
+      "web": "",
+      "screenshots": []
+    }
+  ],
+  "archive": [
+    {
+      "name": "eNaira",
+      "description": "Speed Wallet for Africa's first central bank digital currency.",
+      "link": "https://play.google.com/store/apps/details?id=ng.gov.cbn.speed.wallet.temp"
+    },
+    {
+      "name": "Staarm",
+      "description": "Rent cars from local hosts, or list yours and earn.",
+      "link": "https://play.google.com/store/apps/details?id=com.staarm.staarm_mobile"
+    },
+    {
+      "name": "Accelerate",
+      "description": "Collect payments from customers with ease.",
+      "link": ""
+    },
+    {
+      "name": "Kavecol",
+      "description": "Bills payments with bulk SMS built in.",
+      "link": ""
+    }
+  ]
+}

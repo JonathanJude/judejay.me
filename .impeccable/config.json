@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "app/globals.css"
+        ],
+        "createdAt": "2026-11-02T10:21:13.793Z",
+        "reason": "Claude: subtle white-to-grey heading fade carried over from the approved Claude Design canvas (Vercel/Linear look the user asked for)"
+      }
+    ]
+  }
+}
