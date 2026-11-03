@@ -40,10 +40,13 @@
       "android": "https://play.google.com/store/apps/details?id=com.vendaw.vendaw_mobile&hl=en",
       "web": "https://vendaw.com",
       "screenshots": [
-        "/screens/vendaw-onboarding-1.webp",
-        "/screens/vendaw-onboarding-2.webp",
-        "/screens/vendaw-onboarding-3.webp",
-        "/screens/vendaw-login.webp"
+        "/screens/vendaw-home.webp",
+        "/screens/vendaw-create-product.webp",
+        "/screens/vendaw-create-invoice.webp",
+        "/screens/vendaw-checkout-settings.webp",
+        "/screens/vendaw-get-started.webp",
+        "/screens/vendaw-business-account.webp",
+        "/screens/vendaw-store-setup.webp"
       ],
       "inBeta": false,
       "live": true
