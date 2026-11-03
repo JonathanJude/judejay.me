@@ -11,6 +11,44 @@
   "accent": "#D4FF3F",
   "apps": [
     {
+      "name": "Rova",
+      "category": "Fintech",
+      "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
+      "color": "#3078F0",
+      "ios": "https://apps.apple.com/ng/app/rova-app/id1552432331",
+      "android": "https://play.google.com/store/apps/details?id=com.roava.app&hl=en",
+      "web": "https://getrova.com/",
+      "screenshots": [
+        "/screens/rova-home.PNG",
+        "/screens/rova-transactions.PNG",
+        "/screens/rova-transfer-progress.PNG",
+        "/screens/rova-transfer-success.PNG",
+        "/screens/rova-receipt.PNG",
+        "/screens/rova-buy-data.PNG",
+        "/screens/rova-fund-account.PNG",
+        "/screens/rova-savings.PNG"
+      ],
+      "inBeta": false,
+      "live": true
+    },
+    {
+      "name": "Vendaw",
+      "category": "Business management",
+      "description": "Manage products, orders, customers and bookkeeping for your business.",
+      "color": "#073F3E",
+      "ios": "https://apps.apple.com/ng/app/vendaw/id6748095501",
+      "android": "https://play.google.com/store/apps/details?id=com.vendaw.vendaw_mobile&hl=en",
+      "web": "https://vendaw.com",
+      "screenshots": [
+        "/screens/vendaw-onboarding-1.webp",
+        "/screens/vendaw-onboarding-2.webp",
+        "/screens/vendaw-onboarding-3.webp",
+        "/screens/vendaw-login.webp"
+      ],
+      "inBeta": false,
+      "live": true
+    },
+    {
       "name": "AfterHours Member",
       "category": "Nightlife",
       "description": "Discover venues, manage memberships and book tables from your phone.",
@@ -119,44 +157,6 @@
       ],
       "inBeta": true,
       "live": false
-    },
-    {
-      "name": "Rova",
-      "category": "Fintech",
-      "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
-      "color": "#3078F0",
-      "ios": "https://apps.apple.com/ng/app/rova-app/id1552432331",
-      "android": "https://play.google.com/store/apps/details?id=com.roava.app&hl=en",
-      "web": "https://getrova.com/",
-      "screenshots": [
-        "/screens/rova-home.PNG",
-        "/screens/rova-transactions.PNG",
-        "/screens/rova-transfer-progress.PNG",
-        "/screens/rova-transfer-success.PNG",
-        "/screens/rova-receipt.PNG",
-        "/screens/rova-buy-data.PNG",
-        "/screens/rova-fund-account.PNG",
-        "/screens/rova-savings.PNG"
-      ],
-      "inBeta": false,
-      "live": true
-    },
-    {
-      "name": "Vendaw",
-      "category": "Business management",
-      "description": "Manage products, orders, customers and bookkeeping for your business.",
-      "color": "#073F3E",
-      "ios": "https://apps.apple.com/ng/app/vendaw/id6748095501",
-      "android": "https://play.google.com/store/apps/details?id=com.vendaw.vendaw_mobile&hl=en",
-      "web": "https://vendaw.com",
-      "screenshots": [
-        "/screens/vendaw-onboarding-1.webp",
-        "/screens/vendaw-onboarding-2.webp",
-        "/screens/vendaw-onboarding-3.webp",
-        "/screens/vendaw-login.webp"
-      ],
-      "inBeta": false,
-      "live": true
     }
   ],
   "archive": [
