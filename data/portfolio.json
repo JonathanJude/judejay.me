@@ -11,6 +11,38 @@
   "accent": "#D4FF3F",
   "apps": [
     {
+      "name": "TETT Rider",
+      "category": "Ride-hailing",
+      "description": "Plan a ride, track your driver and review trip activity around Abuja.",
+      "color": "#20166F",
+      "ios": "https://apps.apple.com/us/app/tett-ride/id6800899275",
+      "android": "",
+      "web": "",
+      "screenshots": [
+        "/screens/tett-rider-1.webp",
+        "/screens/tett-rider-2.webp",
+        "/screens/tett-rider-3.webp"
+      ],
+      "inBeta": false,
+      "live": true
+    },
+    {
+      "name": "TETT Driver",
+      "category": "Driver app",
+      "description": "Manage availability, track earnings and review completed trips.",
+      "color": "#20166F",
+      "ios": "https://apps.apple.com/us/app/tett-ride-driver/id6800899292",
+      "android": "",
+      "web": "",
+      "screenshots": [
+        "/screens/tett-driver-1.webp",
+        "/screens/tett-driver-2.webp",
+        "/screens/tett-driver-3.webp"
+      ],
+      "inBeta": false,
+      "live": true
+    },
+    {
       "name": "Rova",
       "category": "Fintech",
       "description": "Multicurrency cards and money transfers between Europe, North America and Africa.",
@@ -128,38 +160,6 @@
       ],
       "inBeta": true,
       "live": false
-    },
-    {
-      "name": "TETT Rider",
-      "category": "Ride-hailing",
-      "description": "Plan a ride, track your driver and review trip activity around Abuja.",
-      "color": "#20166F",
-      "ios": "https://apps.apple.com/us/app/tett-ride/id6800899275",
-      "android": "",
-      "web": "",
-      "screenshots": [
-        "/screens/tett-rider-1.webp",
-        "/screens/tett-rider-2.webp",
-        "/screens/tett-rider-3.webp"
-      ],
-      "inBeta": false,
-      "live": true
-    },
-    {
-      "name": "TETT Driver",
-      "category": "Driver app",
-      "description": "Manage availability, track earnings and review completed trips.",
-      "color": "#20166F",
-      "ios": "https://apps.apple.com/us/app/tett-ride-driver/id6800899292",
-      "android": "",
-      "web": "",
-      "screenshots": [
-        "/screens/tett-driver-1.webp",
-        "/screens/tett-driver-2.webp",
-        "/screens/tett-driver-3.webp"
-      ],
-      "inBeta": false,
-      "live": true
     }
   ],
   "archive": [
