@@ -88,7 +88,7 @@
       "category": "Nightlife",
       "description": "Discover venues, manage memberships and book tables from your phone.",
       "color": "#4BF0B0",
-      "ios": "",
+      "ios": "https://apps.apple.com/ng/app/afterhours-book-dine/id6818711249",
       "android": "",
       "web": "https://afterhours.africa",
       "screenshots": [
@@ -99,15 +99,15 @@
         "/screens/afterhours-member-5.webp",
         "/screens/afterhours-member-6.webp"
       ],
-      "inBeta": true,
-      "live": false
+      "inBeta": false,
+      "live": true
     },
     {
       "name": "AfterHours Staff",
       "category": "Venue operations",
       "description": "Check guests in, manage the door list and settle live tabs during service.",
       "color": "#7BB661",
-      "ios": "",
+      "ios": "https://apps.apple.com/ng/app/afterhours-staff/id6818711141",
       "android": "",
       "web": "https://afterhours.africa",
       "screenshots": [
@@ -118,15 +118,15 @@
         "/screens/afterhours-staff-5.webp",
         "/screens/afterhours-staff-6.webp"
       ],
-      "inBeta": true,
-      "live": false
+      "inBeta": false,
+      "live": true
     },
     {
       "name": "AfterHours Admin",
       "category": "Venue management",
       "description": "Oversee branches, review membership approvals and monitor venue operations.",
       "color": "#E8B14E",
-      "ios": "",
+      "ios": "https://apps.apple.com/ng/app/afterhours-administrator/id6818711426",
       "android": "",
       "web": "https://afterhours.africa",
       "screenshots": [
@@ -137,8 +137,8 @@
         "/screens/afterhours-admin-5.webp",
         "/screens/afterhours-admin-6.webp"
       ],
-      "inBeta": true,
-      "live": false
+      "inBeta": false,
+      "live": true
     },
     {
       "name": "Faji",
