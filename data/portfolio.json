@@ -141,6 +141,25 @@
       "live": true
     },
     {
+      "name": "Cocktail Bar",
+      "category": "Cocktail bar",
+      "description": "Reserve tables, hold a membership and watch your tab at Cocktail Bar in Abuja.",
+      "color": "#E8B14F",
+      "ios": "https://apps.apple.com/ng/app/cocktail-bar-sip-unwind/id6818711786",
+      "android": "",
+      "web": "https://cocktailbar.afterhours.africa",
+      "screenshots": [
+        "/screens/cocktailbar-1.webp",
+        "/screens/cocktailbar-2.webp",
+        "/screens/cocktailbar-3.webp",
+        "/screens/cocktailbar-4.webp",
+        "/screens/cocktailbar-5.webp",
+        "/screens/cocktailbar-6.webp"
+      ],
+      "inBeta": false,
+      "live": true
+    },
+    {
       "name": "Faji",
       "category": "Party games",
       "description": "Party games for nights in with friends: pick a game format, pass the phone and play through fresh card decks.",
